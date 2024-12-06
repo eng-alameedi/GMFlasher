@@ -28,6 +28,13 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/src/include)
 
+target_compile_options(${PROJECT_NAME} PRIVATE
+    $<$<CONFIG:Debug>:-g -O0>
+    $<$<CONFIG:Release>:-O3>
+    $<$<CONFIG:RelWithDebInfo>:-O2 -g>
+    $<$<CONFIG:MinSizeRel>:-Os>
+)
+
 # Link the ncurses library
 target_include_directories(${PROJECT_NAME} PRIVATE ${CURSES_INCLUDE_DIRS})
 target_compile_options(${PROJECT_NAME} PRIVATE ${CURSES_CFLAGS})
