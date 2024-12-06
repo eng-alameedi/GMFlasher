@@ -1,2 +1,2 @@
 # GMFlasher
-Creating hex file flasher for ATmega328p in C++.
+**Creating ATmega328p microcontroller flasher, read and write memory with C++ programming language.**
