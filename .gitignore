@@ -56,3 +56,6 @@ dkms.conf
 
 # cache file
 .cache
+
+# Ignore .envrc file
+.envrc

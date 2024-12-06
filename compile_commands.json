@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/alameedi/Github/GMFlasher/build",
+  "command": "/usr/bin/c++  -I/home/alameedi/Github/GMFlasher/src/include -g -std=gnu++20 -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -o CMakeFiles/GMFlasher.dir/src/lib/gui_api.cpp.o -c /home/alameedi/Github/GMFlasher/src/lib/gui_api.cpp",
+  "file": "/home/alameedi/Github/GMFlasher/src/lib/gui_api.cpp",
+  "output": "CMakeFiles/GMFlasher.dir/src/lib/gui_api.cpp.o"
+},
+{
+  "directory": "/home/alameedi/Github/GMFlasher/build",
+  "command": "/usr/bin/c++  -I/home/alameedi/Github/GMFlasher/src/include -g -std=gnu++20 -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -o CMakeFiles/GMFlasher.dir/src/main.cpp.o -c /home/alameedi/Github/GMFlasher/src/main.cpp",
+  "file": "/home/alameedi/Github/GMFlasher/src/main.cpp",
+  "output": "CMakeFiles/GMFlasher.dir/src/main.cpp.o"
+}
+]
