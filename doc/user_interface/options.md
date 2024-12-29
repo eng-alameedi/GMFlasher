@@ -1,7 +1,7 @@
 # User Interface Command Options:
 
 ```
-GMFlasher -p <programmer> -m <model> -b <baudrate> -F <memory:operation:filename:format>
+GMFlasher -p <programmer> -m <model> -b <baudrate> -c <com.port> -F <memory:operation:filename:format>
 ```
 
 ## Options Explanation
@@ -12,7 +12,9 @@ GMFlasher -p <programmer> -m <model> -b <baudrate> -F <memory:operation:filename
 
 3- __(-b <baudrate>):__ this option for the baudrate value, the default (-b 115200).
 
-4- __(-F <memory:operation:filename:format>):__ this option subdivided to:
+4- __(-c <com.port>):__ this option for the com port number like (tty.USB0).
+
+5- __(-F <memory:operation:filename:format>):__ this option subdivided to:
 
    - __memroy: flash, eeprom.__
    - __operation: __r__ead, __w__rite, __v__erify.__
